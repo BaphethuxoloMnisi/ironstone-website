@@ -1,61 +1,260 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About | Ironstone</title>
-<meta name="description" content="Ironstone is a new digital solutions company founded in 2026.">
-<link rel="icon" href="images/IronStone.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/index-style.css">
-</head>
-<body>
-<header><div class="wrap">
-  <a class="logo" href="index.html"><i></i>Ironstone</a>
-  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
-  <nav id="nav">
-    <a href="services.html">Services</a><a href="sectors.html">Sectors</a><a href="process.html">Process</a><a href="about.html" class="on">About</a><a href="faq.html">FAQ</a>
-    <a class="btn" href="contact.html">Start a project</a>
-  </nav>
-</div></header>
-<main>
-<div class="pagehead"><div class="wrap">
-  <div class="crumbs"><a href="index.html">Home</a> / About</div>
-  <h1>A new company, built around your problem</h1>
-  <p>Ironstone was founded in 2026 to build digital systems for organisations of every size and sector.</p>
-</div></div>
-<section class="pad"><div class="wrap about">
-  <div>
-    <p class="big">We are a new company, and for the right client that is an advantage.</p>
-    <p>We carry no legacy products and no fixed packages. Every engagement is shaped around your problem, and the people you speak to at the start are the people who build your system.</p>
-    <p>We would rather earn your trust on a first project than claim a track record we have not yet built. That is why we put the scope, timeline and price in writing, deliver in stages you can inspect, and make sure you own what we create.</p>
-  </div>
-  <dl>
-    <dt>Plain talk</dt><dd>Clear language, honest timelines and prices that are explained.</dd>
-    <dt>Built to last</dt><dd>Clean, documented systems your team can own and maintain.</dd>
-    <dt>Right-sized</dt><dd>Solutions that suit a small team or a large enterprise, never more than needed.</dd>
-    <dt>Your data stays yours</dt><dd>Security and ownership are designed in from the start.</dd>
-  </dl>
-</div></section>
-<section class="alt"><div class="wrap"><div class="head"><h2>Ways to work with us</h2><p>Choose the arrangement that suits the size and stage of your project.</p></div><div class="models" style="margin-top:0">
-<div><h3>Fixed project</h3><p>A defined scope, timeline and price for a specific system.</p></div>
-<div><h3>Ongoing partnership</h3><p>A monthly arrangement for continued development and support.</p></div>
-<div><h3>Advisory</h3><p>Independent technical guidance before you commit to a build.</p></div></div></div></section><section class="band"><div class="wrap">
-  <h2>Have a project in mind?</h2>
-  <p>Tell us what you want to achieve. We will reply with questions or a suggested next step.</p>
-  <a class="btn" href="contact.html">Start a conversation</a>
-</div></section>
-</main>
-<footer><div class="wrap">
-  <div class="cols">
-    <div><b>Ironstone</b><p style="margin-top:10px;max-width:320px">Digital solutions for organisations of every size and sector.</p></div>
-    <div><h4>Services</h4><a href="service-custom-software.html">Custom software</a><a href="service-websites-and-apps.html">Websites and mobile apps</a><a href="service-cloud-and-infrastructure.html">Cloud and infrastructure</a><a href="service-data-and-reporting.html">Data and reporting</a><a href="service-process-automation.html">Process automation</a><a href="service-integration-and-security.html">Integration and security</a></div>
-    <div><h4>Company</h4><a href="services.html">Services</a><a href="sectors.html">Sectors</a><a href="process.html">Process</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div>
-  </div>
-  <div class="base">&copy; 2026 Ironstone. All rights reserved.</div>
-</div></footer>
-<script src="js/script.js"></script>
-</body>
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About Us | IRONSTONE (Pty) Ltd</title>
+    <meta
+      name="description"
+      content="Learn about IRONSTONE (Pty) Ltd, its vision, mission, values, directors and corporate information."
+    />
+    <meta
+      name="keywords"
+      content="IRONSTONE, South African company, software development, civil engineering, construction, catering, business support, procurement"
+    />
+    <link rel="canonical" href="https://www.ironstoneholdings.co.za/about.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="About Us | IRONSTONE (Pty) Ltd" />
+    <meta
+      property="og:description"
+      content="Learn about IRONSTONE (Pty) Ltd, its vision, mission, values, directors and corporate information."
+    />
+    <meta property="og:url" content="https://www.ironstoneholdings.co.za/about.html" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=70"
+    />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body data-page="about">
+    <!-- Shared navigation (built in js/main.js) -->
+    <div id="site-header"></div>
+    <main>
+      <!-- ABOUT IRONSTONE -->
+      <section
+        class="hero"
+        style="
+          --img: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=70);
+        "
+      >
+        <div class="container reveal in">
+          <h1>About IRONSTONE</h1>
+          <p>Driven by Purpose. Defined by Excellence.</p>
+        </div>
+      </section>
+      <!-- COMPANY OVERVIEW -->
+      <section class="section">
+        <div class="container split">
+          <div class="reveal">
+            <h2>Company Overview</h2>
+            <p style="margin-top: 1rem">
+              IRONSTONE (Pty) Ltd was founded in 2026 as a 100% Black youth-owned South African
+              enterprise, built to improve service delivery in the public and private sectors. The
+              company is registered on the National Treasury Central Supplier Database.
+            </p>
+            <p style="margin-top: 1rem">
+              We serve government institutions, municipalities, businesses, schools and community
+              organisations through four divisions: IT and software development, civil engineering
+              and construction, office administration and business support, and food and beverage
+              services. We listen first, assign the right specialists, and stay involved after
+              delivery, because we want long-term relationships that support business growth and
+              sustainable development.
+            </p>
+          </div>
+          <div class="panel reveal">
+            <h3 style="color: #fff">Corporate Information</h3>
+            <dl>
+              <dt>Legal name</dt>
+              <dd data-cfg="name"></dd>
+              <dt>Registration number</dt>
+              <dd data-cfg="reg"></dd>
+              <dt>B-BBEE status</dt>
+              <dd data-cfg="bbbee"></dd>
+              <dt>Country</dt>
+              <dd data-cfg="region"></dd>
+              <dt>Company type</dt>
+              <dd>Private Company (Pty) Ltd</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <!-- OUR VISION -->
+      <section class="section alt">
+        <div class="container grid g2">
+          <div class="card reveal">
+            <div class="in">
+              <h2>Our Vision</h2>
+              <p>
+                To become a trusted and recognised multi-sector solutions provider, contributing to
+                economic development, innovation and sustainable growth across South Africa.
+              </p>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="in">
+              <h2>Our Mission</h2>
+              <p>
+                To deliver reliable, innovative and quality-driven solutions that address the
+                evolving needs of our clients while creating meaningful business relationships and
+                opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OUR CORE VALUES -->
+      <section class="section">
+        <div class="container">
+          <div class="head"><h2>Our Core Values</h2></div>
+          <div class="grid g3">
+            <div class="card reveal">
+              <div class="in">
+                <i class="fa-solid fa-scale-balanced ic"></i>
+                <h3>Integrity</h3>
+                <p>Conducting business honestly and transparently.</p>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="in">
+                <i class="fa-solid fa-star ic"></i>
+                <h3>Excellence</h3>
+                <p>Maintaining high standards in everything we do.</p>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="in">
+                <i class="fa-solid fa-lightbulb ic"></i>
+                <h3>Innovation</h3>
+                <p>Embracing technology and progressive thinking.</p>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="in">
+                <i class="fa-solid fa-user-check ic"></i>
+                <h3>Accountability</h3>
+                <p>Taking responsibility for our commitments.</p>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="in">
+                <i class="fa-solid fa-people-group ic"></i>
+                <h3>Collaboration</h3>
+                <p>Building productive relationships.</p>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="in">
+                <i class="fa-solid fa-shield-halved ic"></i>
+                <h3>Reliability</h3>
+                <p>Delivering dependable solutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OUR BUSINESS PHILOSOPHY -->
+      <section class="section alt">
+        <div class="container">
+          <div class="head">
+            <h2>Our Business Philosophy</h2>
+            <p>
+              We start by understanding what a client needs to achieve, identify the appropriate
+              solution, coordinate delivery across our divisions, and keep the relationship
+              professional and open after the work is done.
+            </p>
+          </div>
+          <div class="head"><h2>Our Approach</h2></div>
+          <div class="grid g4">
+            <div class="step reveal">
+              <b>1</b>
+              <h3>Understand</h3>
+              <p>Understand the client's needs, goals, timelines and budget.</p>
+            </div>
+            <div class="step reveal">
+              <b>2</b>
+              <h3>Plan</h3>
+              <p>Develop an appropriate, compliant and practical solution.</p>
+            </div>
+            <div class="step reveal">
+              <b>3</b>
+              <h3>Deliver</h3>
+              <p>Coordinate the required services with quality control and clear communication.</p>
+            </div>
+            <div class="step reveal">
+              <b>4</b>
+              <h3>Support</h3>
+              <p>Maintain relationships and provide ongoing support where agreed.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OUR DIRECTORS -->
+      <section class="section">
+        <div class="container">
+          <div class="head"><h2>Our Directors</h2></div>
+          <div class="grid g3">
+            <div class="card person reveal">
+              <div class="in">
+                <div class="avatar">SN</div>
+                <h3>Siyabulela Gift Nkosi</h3>
+                <span class="tag">Director – Operations, Client Relations & Bid Office</span>
+                <p>
+                  Leads tender compliance, client onboarding, stakeholder communication and business
+                  strategy.
+                </p>
+              </div>
+            </div>
+            <div class="card person reveal">
+              <div class="in">
+                <div class="avatar">BM</div>
+                <h3>Baphethuxolo Asiziphanga Mnisi</h3>
+                <span class="tag">Director – Technology & Innovation Lead</span>
+                <p>Leads programming, systems consultancy and digital transformation.</p>
+              </div>
+            </div>
+            <div class="card person reveal">
+              <div class="in">
+                <div class="avatar">NM</div>
+                <h3>Nkosikhona Gift Mkhabane</h3>
+                <span class="tag">Director – Infrastructure, Support & Hospitality Lead</span>
+                <p>Oversees civil engineering, administrative support and catering operations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- LET'S BUILD SOMETHING MEANINGFUL TOGETHER. -->
+      <section
+        class="section cta"
+        style="
+          --img: url(https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=70);
+        "
+      >
+        <div class="container reveal">
+          <h2>Let's Build Something Meaningful Together.</h2>
+          <p>Talk to our team about your next project or procurement requirement.</p>
+          <div class="btns">
+            <a class="btn btn-out" href="contact.html">Contact Our Team</a>
+            <a class="btn btn-gold" href="contact.html?quote=1#form">Request a Quote</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Shared footer (built in js/main.js) -->
+    <div id="site-footer"></div>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

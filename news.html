@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>News & Insights | IRONSTONE (Pty) Ltd</title>
+    <meta
+      name="description"
+      content="Company announcements, project updates and industry insights from IRONSTONE."
+    />
+    <meta
+      name="keywords"
+      content="IRONSTONE, South African company, software development, civil engineering, construction, catering, business support, procurement"
+    />
+    <link rel="canonical" href="https://www.ironstoneholdings.co.za/news.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="News & Insights | IRONSTONE (Pty) Ltd" />
+    <meta
+      property="og:description"
+      content="Company announcements, project updates and industry insights from IRONSTONE."
+    />
+    <meta property="og:url" content="https://www.ironstoneholdings.co.za/news.html" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=70"
+    />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body data-page="news">
+    <!-- Shared navigation (built in js/main.js) -->
+    <div id="site-header"></div>
+    <main>
+      <!-- NEWS, UPDATES & INSIGHTS. -->
+      <section
+        class="hero"
+        style="
+          --img: url(https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1600&q=70);
+        "
+      >
+        <div class="container reveal in">
+          <h1>News, Updates & Insights.</h1>
+          <p>Company announcements, industry developments and business updates.</p>
+        </div>
+      </section>
+      <!-- BUSINESS DEVELOPMENT -->
+      <section class="section">
+        <div class="container">
+          <div class="chips" id="cats" role="group" aria-label="Categories">
+            <button class="btn" style="background: #fff; color: var(--c1)" data-c="All">All</button>
+            <button
+              class="btn"
+              style="background: #fff; color: var(--c1)"
+              data-c="Company announcements"
+            >
+              Company announcements
+            </button>
+            <button class="btn" style="background: #fff; color: var(--c1)" data-c="Project updates">
+              Project updates
+            </button>
+            <button
+              class="btn"
+              style="background: #fff; color: var(--c1)"
+              data-c="Technology and innovation"
+            >
+              Technology and innovation
+            </button>
+            <button
+              class="btn"
+              style="background: #fff; color: var(--c1)"
+              data-c="Construction and infrastructure"
+            >
+              Construction and infrastructure
+            </button>
+            <button
+              class="btn"
+              style="background: #fff; color: var(--c1)"
+              data-c="Procurement opportunities"
+            >
+              Procurement opportunities
+            </button>
+            <button
+              class="btn"
+              style="background: #fff; color: var(--c1)"
+              data-c="Business development"
+            >
+              Business development
+            </button>
+            <button
+              class="btn"
+              style="background: #fff; color: var(--c1)"
+              data-c="Industry insights"
+            >
+              Industry insights
+            </button>
+          </div>
+          <div class="grid g3" id="newsGrid" style="margin-top: 2rem"></div>
+        </div>
+      </section>
+      <!-- BUSINESS DEVELOPMENT -->
+      <section
+        class="section cta"
+        style="
+          --img: url(https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=70);
+        "
+      >
+        <div class="container reveal">
+          <h2>Business Development</h2>
+          <p>Interested in working with IRONSTONE?</p>
+          <div class="btns"><a class="btn btn-out" href="contact.html">Contact Our Team</a></div>
+        </div>
+      </section>
+      <dialog id="nd" aria-label="Article"></dialog>
+    </main>
+    <!-- Shared footer (built in js/main.js) -->
+    <div id="site-footer"></div>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/news-data.js"></script>
+    <script src="js/news.js"></script>
+  </body>
+</html>

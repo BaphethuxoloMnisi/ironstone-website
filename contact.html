@@ -1,60 +1,167 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact | Ironstone</title>
-<meta name="description" content="Start a conversation with Ironstone about your project.">
-<link rel="icon" href="images/IronStone.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/index-style.css">
-</head>
-<body>
-<header><div class="wrap">
-  <a class="logo" href="index.html"><i></i>Ironstone</a>
-  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
-  <nav id="nav">
-    <a href="services.html">Services</a><a href="sectors.html">Sectors</a><a href="process.html">Process</a><a href="about.html">About</a><a href="faq.html">FAQ</a>
-    <a class="btn" href="contact.html">Start a project</a>
-  </nav>
-</div></header>
-<main>
-<div class="pagehead"><div class="wrap">
-  <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
-  <h1>Start a conversation</h1>
-  <p>Tell us about your organisation and what you want to achieve. We will reply with questions or a suggested next step.</p>
-</div></div>
-<section class="dark"><div class="wrap contact">
-  <div>
-    <h2>Talk to us</h2>
-    <p class="intro">You do not need a technical specification. A few lines about what you are trying to do is enough to begin.</p>
-    <div class="det">
-      <div><b>Email</b>hello@yourdomain.com</div>
-      <div><b>Phone</b>+00 000 000 0000</div>
-      <div><b>Office</b>Your address here</div>
-    </div>
-  </div>
-  <form id="enquiry">
-    <label>Your name<input name="n" required autocomplete="name"></label>
-    <label>Organisation<input name="o" autocomplete="organization"></label>
-    <label>Email<input name="e" type="email" required autocomplete="email"></label>
-    <label>What do you need?<select name="s" id="svc"><option value="custom-software">Custom software</option><option value="websites-and-apps">Websites and mobile apps</option><option value="cloud-and-infrastructure">Cloud and infrastructure</option><option value="data-and-reporting">Data and reporting</option><option value="process-automation">Process automation</option><option value="integration-and-security">Integration and security</option><option value="unsure">Not sure yet</option></select></label>
-    <label class="full">Details<textarea name="m"></textarea></label>
-    <button class="btn" type="submit">Send enquiry</button>
-    <span class="note">This opens your email app with the message ready to send.</span>
-  </form>
-</div></section>
-</main>
-<footer><div class="wrap">
-  <div class="cols">
-    <div><b>Ironstone</b><p style="margin-top:10px;max-width:320px">Digital solutions for organisations of every size and sector.</p></div>
-    <div><h4>Services</h4><a href="service-custom-software.html">Custom software</a><a href="service-websites-and-apps.html">Websites and mobile apps</a><a href="service-cloud-and-infrastructure.html">Cloud and infrastructure</a><a href="service-data-and-reporting.html">Data and reporting</a><a href="service-process-automation.html">Process automation</a><a href="service-integration-and-security.html">Integration and security</a></div>
-    <div><h4>Company</h4><a href="services.html">Services</a><a href="sectors.html">Sectors</a><a href="process.html">Process</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div>
-  </div>
-  <div class="base">&copy; 2026 Ironstone. All rights reserved.</div>
-</div></footer>
-<script src="js/script.js"></script>
-</body>
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact Us | IRONSTONE (Pty) Ltd</title>
+    <meta
+      name="description"
+      content="Contact IRONSTONE for quotations, procurement, partnership and project enquiries."
+    />
+    <meta
+      name="keywords"
+      content="IRONSTONE, South African company, software development, civil engineering, construction, catering, business support, procurement"
+    />
+    <link rel="canonical" href="https://www.ironstoneholdings.co.za/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact Us | IRONSTONE (Pty) Ltd" />
+    <meta
+      property="og:description"
+      content="Contact IRONSTONE for quotations, procurement, partnership and project enquiries."
+    />
+    <meta property="og:url" content="https://www.ironstoneholdings.co.za/contact.html" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=70"
+    />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body data-page="contact">
+    <!-- Shared navigation (built in js/main.js) -->
+    <div id="site-header"></div>
+    <main>
+      <!-- LET'S START A CONVERSATION. -->
+      <section
+        class="hero"
+        style="
+          --img: url(https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&w=1600&q=70);
+        "
+      >
+        <div class="container reveal in">
+          <h1>Let's Start a Conversation.</h1>
+          <p>
+            Have a project, procurement requirement or business opportunity? Our team would welcome
+            the opportunity to hear from you.
+          </p>
+        </div>
+      </section>
+      <!-- SEND AN ENQUIRY -->
+      <section class="section">
+        <div class="container split" style="align-items: start">
+          <address class="panel reveal" style="font-style: normal">
+            <h3 style="color: #fff">Contact Details</h3>
+            <dl>
+              <dt>Email</dt>
+              <dd><a href="mailto:siyabulelankosi32@gmail.com" data-cfg="email"></a></dd>
+              <dt>Telephone</dt>
+              <dd><a data-cfg="phone" href="tel:+27729277913"></a></dd>
+              <dt>Website</dt>
+              <dd data-cfg="web"></dd>
+              <dt>Business address</dt>
+              <dd data-cfg="address"></dd>
+              <dt>Operating region</dt>
+              <dd data-cfg="region"></dd>
+            </dl>
+          </address>
+          <div id="form" class="reveal">
+            <h2 style="margin-bottom: 1.5rem">Send an Enquiry</h2>
+            <form id="enquiry" novalidate>
+              <div class="f">
+                <label for="name">Full name *</label>
+                <input id="name" name="name" type="text" required />
+                <span class="err" id="e-name" aria-live="polite"></span>
+              </div>
+              <div class="f">
+                <label for="company">Company / organisation</label>
+                <input id="company" name="company" type="text" />
+                <span class="err" id="e-company" aria-live="polite"></span>
+              </div>
+              <div class="f">
+                <label for="email">Email address *</label>
+                <input id="email" name="email" type="email" required />
+                <span class="err" id="e-email" aria-live="polite"></span>
+              </div>
+              <div class="f">
+                <label for="phone">Telephone number</label>
+                <input id="phone" name="phone" type="tel" />
+                <span class="err" id="e-phone" aria-live="polite"></span>
+              </div>
+              <div class="f">
+                <label for="category">Enquiry category *</label>
+                <select id="category" name="category">
+                  <option value="">Select…</option>
+                  <option>General enquiry</option>
+                  <option>Website and software development</option>
+                  <option>Construction and infrastructure</option>
+                  <option>Office administration and business support</option>
+                  <option>Catering and hospitality</option>
+                  <option>Procurement and supply</option>
+                  <option>Supplier partnership</option>
+                  <option>Tender collaboration</option>
+                  <option>Other</option>
+                </select>
+                <span class="err" id="e-category"></span>
+              </div>
+              <div class="f">
+                <label for="subject">Subject *</label>
+                <input id="subject" name="subject" type="text" required />
+                <span class="err" id="e-subject" aria-live="polite"></span>
+              </div>
+              <div class="f full">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                <span class="err" id="e-message"></span>
+              </div>
+              <button class="btn btn-gold full" style="grid-column: 1/-1" type="submit">
+                Send Enquiry
+              </button>
+              <div id="msg" class="msg" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- LOCATION -->
+      <section class="section alt">
+        <div class="container">
+          <div class="head">
+            <h2>Location</h2>
+            <p>The official business location will be added once confirmed.</p>
+          </div>
+          <div class="note">Add your Google Maps embed &lt;iframe&gt; here in contact.html.</div>
+        </div>
+      </section>
+      <!-- LET'S CREATE OPPORTUNITIES TOGETHER. -->
+      <section
+        class="section cta"
+        style="
+          --img: url(https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=70);
+        "
+      >
+        <div class="container reveal">
+          <h2>Let's Create Opportunities Together.</h2>
+          <p>Contact the IRONSTONE team today.</p>
+          <div class="btns">
+            <a class="btn btn-gold" href="contact.html?quote=1#form">Request a Quote</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Shared footer (built in js/main.js) -->
+    <div id="site-footer"></div>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
 </html>
