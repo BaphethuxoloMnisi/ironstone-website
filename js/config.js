@@ -6,15 +6,15 @@
 
 const CFG = {
   name: "IRONSTONE (Pty) Ltd",
-  reg: "2026/64838",
+  reg: "2026 / 184136 / 07",
   bbbee: "Level 1 B-BBEE Contributor",
   email: "siyabulelankosi32@gmail.com",
   phone: "072 927 7913",
   tel: "+27729277913",
   web: "www.ironstoneholdings.co.za",
-  address: "[Business address – to be confirmed]",
+  address: "Carolina Silobela",
   region: "South Africa",
-  csd: "[CSD supplier number – to be added]",
+  /*csd: "[CSD supplier number – to be added]",*/
   whatsapp: "", // e.g. "27729277913" once verified
   social: { linkedin: "", facebook: "", instagram: "" },
 };
