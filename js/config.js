@@ -11,7 +11,7 @@ const CFG = {
   email: "siyabulelankosi32@gmail.com",
   phone: "072 927 7913",
   tel: "+27729277913",
-  web: "www.ironstoneholdings.co.za",
+  web: "www.ironstonegroup.co.za",
   address: "Carolina Silobela",
   region: "South Africa",
   /*csd: "[CSD supplier number – to be added]",*/
